@@ -1,0 +1,17 @@
+[
+  {
+    "TestSuite": "DashboardAutomationPage",
+    "RunConfig": "TestRun",
+    "Enabled": "True"
+  },
+  {
+    "TestSuite": "DashboardAutomationDataProfile",
+    "RunConfig": "TestRun",
+    "Enabled": "True"
+  },
+  {
+    "TestSuite": "DashboardAutomationPanels",
+    "RunConfig": "TestRun",
+    "Enabled": "True"
+  }
+]

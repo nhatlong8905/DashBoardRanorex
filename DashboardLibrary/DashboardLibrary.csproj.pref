@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="ActionsDataProfile\DeleteDataProfile.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ActionsDataProfile\DeleteDataProfile.rxrec" />
+    <Element value="UserCodeUtilities.cs" />
+    <Element value="Constants.cs" />
+    <Element value="ActionsDataProfile\CreateGeneralSettings.rxrec" />
+    <Element value="ActionsDataProfile\EditGeneralSetting.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="DashboardLibrary.UserCodeUtilities.updateName(String name)" />
+      <Element value="DashboardLibrary.ActionsDataProfile.CreateDataProfile.Mouse_Click_ChkDistinct(RepoItemInfo inputtagInfo)" />
+      <Element value="DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.MergedUserCodeMethod(RepoItemInfo litagInfo, RepoItemInfo atagInfo)" />
+      <Element value="DashboardLibrary.UserCodeUtilities.getName()" />
+      <Element value="DashboardLibrary.UserCodeUtilities.updateName(String name)" />
+      <Element value="DashboardLibrary.UserCodeUtilities.getName(String update)" />
+    </Array>
+  </Properties>
+</Properties>

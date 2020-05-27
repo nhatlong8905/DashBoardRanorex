@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="de9b8bc5-25a9-420c-b320-53475ad616a3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeleteDataProfile"
+	namespace="DashboardLibrary.ActionsDataProfile">
+	</codegen>
+	<variables>
+		<var
+		id="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
+		name="varItemDataProfile">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9815d608-ae4a-47e6-a42c-f5abff9aa8bc"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="44db8363-7597-4f94-8544-ef4080fd66fa"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//form[#'form1']//table/tbody/tr/td/a[@innertext=$varItemDataProfile]//parent::td/following-sibling::td[7]/a[@innertext='Delete']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="79ca73f3-acca-4a00-b738-5d018afed2db"
+	name="DashboardLibraryRepository"
+	relativepath="..\DashboardLibraryRepository.rxrep">
+		<codegen
+		classname="DashboardLibraryRepository"
+		namespace="DashboardLibrary">
+		</codegen>
+		<rootfolder
+		id="b7ff0fae-7b8d-4910-97af-49ef286a1d67"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeleteDataProfile.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

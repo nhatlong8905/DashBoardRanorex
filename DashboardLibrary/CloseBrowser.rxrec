@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b9f6e11b-794a-47a0-895b-8091b77bab8e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="DashboardLibrary">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="5fa71fb6-bb41-4555-84cd-4b3a6a7c9ca5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="54dd9049-e663-4b87-952b-52d7e4c0d898"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ab6a9bb0-e82a-4d15-a4c7-554fd3acb0c7"
+	name="DashboardAutomationRepository"
+	relativepath="DashboardAutomationRepository.rxrep">
+		<codegen
+		classname="DashboardAutomationRepository"
+		namespace="DashboardLibrary">
+		</codegen>
+		<rootfolder
+		id="b30df7fb-8bf3-4da2-94fc-07ed2939c5a9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,937 @@
+﻿<repository
+id="79ca73f3-acca-4a00-b738-5d018afed2db"
+name="DashboardLibraryRepository">
+	<codegen
+	classname="DashboardLibraryRepository"
+	namespace="DashboardLibrary">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b7ff0fae-7b8d-4910-97af-49ef286a1d67"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="10abeb5d-342a-48a2-a14d-cf59e28f8c01"
+		isrooted="True"
+		name="TestArchitect"
+		refpath="/dom[@domain='localhost']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="unknown"
+			id="b6ae025d-210d-415a-b3dc-e58bbad4671f"
+			isrooted="False"
+			name="loginDashboard"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8f98ae6a-c1df-4318-a710-184d4c1baa96"
+				name="Username"
+				refimgid="68f294c6-a7bc-4418-b87b-2924ba5e5ee7"
+				refpath="/dom[@domain='localhost']//input[#'username']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//input[#'username']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b724b041-4db1-4c72-85e4-ddc438e23b83"
+				name="Password"
+				refimgid="79385906-d4ad-47b6-b258-5e83dee9bac5"
+				refpath="/dom[@domain='localhost']//input[#'password']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//input[#'password']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="22e47d28-c514-4df7-a3bd-f4da96932742"
+				name="Login"
+				refimgid="9dfc2906-1209-49dd-b8a1-a3e22d801751"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'content']/div/div[@innertext='Login' and @safeclass='btn-login']
+				</item>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="litag"
+			id="d7344714-fb0c-48ef-96ec-205a8fab2b34"
+			name="GlobalSetting"
+			refimgid="e6574329-087a-43fa-8911-387143419406"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'main-menu']//ul/li[@safeclass='mn-setting']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6e6fad88-5dfc-4a26-9cb2-f928825cb2fb"
+			name="PageName"
+			refimgid="61c8056b-33e2-446b-90eb-8e28c46ff64f"
+			refpath="/dom[@domain='localhost']//input[#'name']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'name']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a03c0468-31b2-42df-a78c-c63d933c1b35"
+			name="PageOK"
+			refimgid="e06bc83b-34c0-42fd-b574-ab6a6dccc187"
+			refpath="/dom[@domain='localhost']//input[#'OK']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//input[#'OK']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="cd63fbe8-7f51-4a5c-8997-088e77295cde"
+			name="Administrator"
+			refimgid="ff69b5d7-23db-401e-993c-d00240b699fb"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'header']//ul//a[@innertext='administrator']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3c42aec0-62cd-4f87-bc0c-7d87ba90ccae"
+			name="Logout"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'header']//ul/li[5]/ul//a[@innertext='Logout']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1264fad8-54dd-4bde-aa15-94fb5d37af57"
+			name="TestPageTab"
+			refimgid="e112517e-0d53-4a93-8594-1207fbc0d9d1"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost']//div[#'main-menu']//ul//a[@innertext=$varName]
+			</item>
+			<folder
+			capname="unknown"
+			id="fbfdc009-6cc6-498b-97a7-a490009f8c0b"
+			isrooted="False"
+			name="Administers"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="4bdeae27-f280-4598-b859-412084e8392e"
+				name="Administer"
+				refimgid="82e9727c-5287-4ed3-b1df-7997cfcdcf6c"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'header']//ul//a[@innertext='Administer']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2e2c0346-094b-402e-bbc6-40724290aa8b"
+				name="DataProfiles"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//ul[#'ulAdminister']//a[@innertext='Data Profiles']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="fa5bc057-2131-49e0-abcc-9845205214aa"
+				name="Panels"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//ul[#'ulAdminister']//a[@innertext='Panels']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="0d3f8ed5-9142-49be-95b9-08bd881e4314"
+				name="AddNew"
+				refimgid="0a6fd0ae-f83d-42c8-8c73-dfff041d26f8"
+				refpath="/dom[@domain='localhost']//form[#'form1']/div/div[@innertext=' | ']/a[@innertext='Add New']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//a[@innertext='Add New']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="c8b718d6-dd41-4e13-b1ad-a02e39ba2664"
+				name="DeleteAllItems"
+				refimgid="7f30f6aa-5779-42e2-80a8-3ac1304bb257"
+				refpath="/dom[@domain='localhost']//form[#'form1']/div/div[@innertext=' | ']/a[@innertext='Delete']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//a[@innertext='Delete']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c736c4a9-1956-4834-b88d-d4fc24c9537b"
+			isrooted="False"
+			name="ActionsPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ecbdd83f-c6a2-483c-98fd-9efb93530af8"
+				name="AddPage"
+				refimgid="74672d53-f86b-42af-9d90-23d5e59cad67"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'main-menu']//a[@innertext='Add Page']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="31979903-baa3-4a20-bde5-a96e50908354"
+				name="EditPage"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'main-menu']//ul//ul//a[@innertext='Edit']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="389bdd25-9b3b-453e-b195-d98c8168cb62"
+				name="DeletePage"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//div[#'main-menu']//ul//ul//a[@innertext='Delete']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="ee0dd93a-76c7-4a64-82b1-db70577821e8"
+			isrooted="False"
+			name="ActionsDataProfile"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="atag"
+				id="0fcf3e3e-8ddd-453a-9869-7fc612ccec59"
+				name="EditDataProfile"
+				refimgid="ab47b9a1-26ed-4fe7-a687-afd1c99b8ff8"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//table/tbody/tr/td/a[@innertext=$varItemDataProfile]//parent::td/following-sibling::td[7]/a[@innertext='Edit']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="atag"
+				id="3b7265bb-7f94-4bd1-ac63-d6dd332628a2"
+				name="ItemDataProfile"
+				refimgid="4ae09206-8c97-44b6-be0e-a69061c3bdd3"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//table/tbody///a[@innertext=$varItemDataProfile]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="d5b8e21d-80f6-43b5-8e2e-0406292cccc6"
+				name="EditDataProfileChrome"
+				refimgid="3275f001-1f94-4b22-be1c-c7eb95077509"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//table/tbody//tr/td[text()=$varItemDataProfile]/following-sibling::td[7]/a[@innertext='Edit']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7006680b-6ca2-41b0-99c4-71cde4cd3655"
+				name="ButtonProfileSetting"
+				refimgid="1b3726b6-fb08-481d-987d-77795d972f47"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//table[#'profilesettingsdetail']//input[@value='Finish']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="atag"
+				id="44db8363-7597-4f94-8544-ef4080fd66fa"
+				name="DeleteItemDataProfile"
+				refimgid="ab47b9a1-26ed-4fe7-a687-afd1c99b8ff8"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//table/tbody/tr/td/a[@innertext=$varItemDataProfile]//parent::td/following-sibling::td[7]/a[@innertext='Delete']
+				</item>
+				<folder
+				capname="unknown"
+				id="9beb0163-89c3-4d46-be06-eb1aef738d5a"
+				isrooted="False"
+				name="CreateGeneralSettings"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="bad72527-e74d-45da-9f6d-af6919d6defa"
+					name="ChkDistinct"
+					refimgid="fb564145-3071-4f96-bac3-11999ac531aa"
+					refpath="/dom[@domain='localhost']//input[#'chkDistinct']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//input[#'chkDistinct']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="79a67b4b-93cc-43ee-803c-db25b40962bb"
+					name="CbbSubReport"
+					refimgid="59dda040-2602-4965-82dc-63c3f6d56210"
+					refpath="/dom[@domain='localhost']//select[#'cbbSubReport']"
+					searchtimeout="30000ms">
+						<image
+						guid="955c98ef-0502-4ecb-9892-6d4c79f55803"
+						name="Related_Test_Result">
+							iVBORw0KGgoAAAANSUhEUgAAATAAAAAVCAYAAADB7bLCAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANnSURBVHhe7ZzNraswEEZpKWtqyTZSdjRBCVmx
+yTpFpIN0kCLSga/HPzAztiEQ4D2k70gjvWCwB798R5DFrS6Xi0GhUKgjlhMYAAAcDQgMALAb9/t9
+lbrdbm4+CAwAsBskn8/n83Ndr1c3HwQGANiNfQT27kxdVaZKqjbdO5wzxbOx5zfmGT5uxburTVV3
+JmmreA9UM+5jNk/TZNesTLP1ZoS1t18HgGXsKLA05M/GBjEnixxfC+xturoy9UKjFAXGKdzPYkbv
+LS8R1+fmQudr/7avAGzBPxXYLBFAYIo9no4gMPB/kwrsYc6n1rzEMVWPszm1L3FsNYH5J4vwmsRF
+okPuPg+vUzFY7qlOHfPrxOO6Dx/MONY0vwms2L+F99aPid5yEpshMLEnci7RV7KP7LO4t2GNdF/5
+vtna1qQAZMkKjL6PJYlZedH3dRWBJa+QKkxuPAZDjFGw2HxiTD8pqKCrNeQTlz93scCm+mfz0ljf
+o7pOkhGVxQuJXaN6EvflxtQ9Z/fVUhCYHRD7KuYIY7pHALYm9wr5ONvcUY61xIK8qupk2hc7bmvh
+j/gytCLUBA/eSMhlmJXAlDhk2LTswlwLBTbdfyHkXwgs3Tu5vhQKQdeFc8L+i94ivwgsswcA7Enp
+N7BEYiPyopr5BOaDIQPlAyJDShWuE0GT59Z1WWA+aHy+cI2flAU0kAgvQ1ZgE/0TQWKx+nW/ENjQ
+Y1hHNE1TDPNm1wgSi8f7vV8oMELurd4PALZn7Ef8V3ti30+qvLyo5r9ChkDxHCZPMBweNB068VkF
+jcaKQiqEcq0nsBF8+Av3I8hINhxL+lZSK+LWC/3rtWcIjOMEOrVvAKzMmMCoBomdzSMzHmvRb2Ai
+xIQKUzHkPIAhWMN1OmhKAEqcsocw10KBjfXv/s3npXPjZ3WdJCcwi9gDi+6Jj+v53bnhc3Y/4jxl
+gTlhsabcdUmTAGzLlMCoXm07Ki+qRQKLAeHB9gEiIVHpQMYQRmmFc55y/n6OIZUupHFe/RTBX7+a
+xq6zVGCWYv8Wvo4cC/uQnbMgsH4PmJjcHg1r8GtkX3KM91V3nV0v9iHXlvvK/w+oSgIGYDu+Edg3
+NS4wAADYAAgMAHBYIDAAwGGBwAAAh4X+jhfJZ40iIDAAwGHpBYZCoVDHq4v5AzBz+fKbr2hEAAAA
+AElFTkSuQmCC
+						</image>
+						/dom[@domain='localhost']//select[#'cbbSubReport']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="0884108e-0f34-4141-9608-eecfb786e884"
+					name="CbbItemType"
+					refimgid="8e740374-33fd-4e6a-ac5c-fd6ea6a6ac50"
+					refpath="/dom[@domain='localhost']//select[#'cbbEntityType']"
+					searchtimeout="30000ms">
+						<image
+						guid="e0e60877-d5bc-4dc2-acd7-ba1cd312dc3f"
+						name="TestModules">
+							iVBORw0KGgoAAAANSUhEUgAAATAAAAAWCAYAAABHecBsAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKzSURBVHhe7ZzLraMwFEBpKWtqyTZSdjRBCVmx
+yTpF0AEdpIh04PE1tvEPnp+C0DBzjnSlxL9rR/LRhUWa2+2mCIIgzhhGYAAAZwOBAcBhPJ/PXeLx
+eJj1EBgAHIbI5/P5fB33+92sh8AA4DAOEdjQNqppytEObztqf95Du5Lj7ffUjbbpV8zza/Zu9tAO
+egYA7M3BFVj9xa9jVN2GhGZ5tKpNBfIeVGsFisAAzsu/L7Cu02NaFaUcO9uOwADOzF8ksFlG7tEy
+EosIx/c5Gc1rFcdbZoGNenqcU753Yy4/M97l2ajamlbLz58jP5OsL3mFTGDRWTp96oUof9IHADm5
+wF7qeunVFLUl8bqqSz9FbV8KLGk3snCiEtEEFZQIwAuhpgLTndkckUMy14jFScPK0Xcm+7MS+rXA
+onOV+hZp+b0DwCpFgUkBsCYxLS+5u/sKLLm8wlI1zaIpX+ZKgZlxdn0vs3huKB1DKLREPPE56gWW
+S0n2YNc1OQq/DQCsUnqEfF31/RNnpBKz8mqai+qnoF3HdwKzFU0W/rJbia20R04IWIQx55WPqRjn
+uYV9hQILP1uWdeoFZtrDc9jw+7cSc+3Z7wQAEWvvwDKJbchLYvcKbBV7yedLXysw9zl8oR/PDaVj
+OKQC28DkD3MCQMrWS/ypv1hpuSjLS2Lfd2BWLuZ7Jg/pK0soJRKGq27cO6d0blRlzftZZJN8t2u5
+/RphJeuWBJadJZRUWuWZsZVSB/hP2RKYxCKxq3oV+l18KTDBXnwXXh4ac7mXvnC+eywrrRlXPGVJ
+hmnMeJfHC8kR7k9XcjqvX8vJ0fYNQd5IYEJyltX8SR8A5PwkMImp7zflJVEpMACA/agRWE0gMAA4
+HAQGAKcFgQHAaUFgAHBa5I8IRT57hIDAAOC0eIERBEGcL27qDxioI0ku/Eu9AAAAAElFTkSuQmCC
+						</image>
+						/dom[@domain='localhost']//select[#'cbbEntityType']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="835f948e-b4f1-4107-bd05-d5c4f244787f"
+					name="TxtProfileName"
+					refimgid="24bf83dc-3ffb-4bd9-a1b0-8ae7fd62a5d9"
+					refpath="/dom[@domain='localhost']//input[#'txtProfileName']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//input[#'txtProfileName']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="ad9dc90d-0be4-4827-a48d-50214f29133a"
+					name="ButtonNext"
+					refimgid="e508fdc5-ddb4-416c-9652-d8c15c755c0e"
+					refpath="/dom[@domain='localhost']//table[#'profilesettingsdetail']/tbody/tr[5]/td/input[@type='button' and @value='Next']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettingsdetail']/tbody/tr[5]/?/?/input[@value='Next']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="fc22f2da-5b10-4547-ac5e-7154d4d27762"
+				isrooted="False"
+				name="DislayField"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,litag"
+					capname="litag"
+					id="d0c38bdf-b280-4266-8798-59c83c872921"
+					name="DisplayFields"
+					refimgid="ddc7865c-bc14-4805-9d3d-c54c9b3de94a"
+					refpath="/dom[@domain='localhost']//ul[#'wstep']/li[@innertext='Display Fields']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//ul[#'wstep']/li[@innertext='Display Fields']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="bb4b4c48-a8b6-471d-bfdd-b7f89c390050"
+					name="ChkDescription"
+					refimgid="6615018d-70f3-42ba-a77c-27671a908ff3"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='description']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="214f9a2d-8370-47d0-915c-6962f2a0e0ad"
+					name="ChkName"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='name']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="23b56da2-3ea2-434d-81f0-a5d07130263e"
+					name="ChkSource"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='external id']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="28f85073-9fd4-480c-8379-0c4d309098b6"
+					name="ChkAssigned"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='assigned']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="8274cdef-6d0d-4888-9944-a96f4c11d2fe"
+					name="ChkStatus"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='status']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="4911fa53-d93b-4e3e-aa1c-b2ce8a3115ed"
+					name="ChkNotes"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='notes']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="4ca5ef77-9075-4c16-b7a2-b68b0b63bef6"
+					name="ChkUrl"
+					refimgid="3c917cf1-d3e4-4d4c-8713-b022552eae8b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='url']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="68219337-7381-40a8-8764-941564ecd4c7"
+					name="ButtonNextField"
+					refimgid="87e0bb6d-4dc2-490c-9579-eb31a4150e65"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='Next']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="1e482995-a86b-4280-af74-67db3dd98932"
+				isrooted="False"
+				name="SortField"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,litag"
+					capname="litag"
+					id="418d81cf-9c2c-4f65-a1bb-4cb48fec44ef"
+					name="SortFields"
+					refimgid="b4f31036-2da6-4961-9424-5c0e9ad3b745"
+					refpath="/dom[@domain='localhost']//ul[#'wstep']/li[@innertext='Sort Fields']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//ul[#'wstep']/li[@innertext='Sort Fields']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="8a5fc876-6b50-4d37-b244-700555373305"
+					name="CbbFields"
+					refimgid="709124d6-25fe-40ff-ab7e-5bfb58f4f09e"
+					refpath="/dom[@domain='localhost']//select[#'cbbFields']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbFields']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="e8cfa9b2-d8eb-48dc-858a-99412d95a90f"
+					name="BtnAddSortField"
+					refimgid="0ef0aa3e-f87e-46bd-9f52-ab9af87dd39b"
+					refpath="/dom[@domain='localhost']//input[#'btnAddSortField']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//input[#'btnAddSortField']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="336de6d9-7ea8-4cef-b004-963b2c9a11d9"
+					name="TagLocation"
+					refimgid="42cfddc0-3aed-44fd-bccd-19adccde493b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']/tbody//span[@innertext='Location']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="411b53f0-cd6c-4595-8a8c-155bfd51dfdc"
+					name="TagStatus"
+					refimgid="3561068d-9ba4-40ed-a278-e974bc95cfcc"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']/tbody//span[@innertext='Status']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="419b2319-01ce-4606-bf88-7fde3c2bd15c"
+					name="TagURL"
+					refimgid="6d4c15be-10e4-4e3d-8599-e1811bccd3d8"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']/tbody//span[@innertext='URL']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="2004586b-f2f6-4a89-8c92-f32a3cbd1bf0"
+					name="ButtonFinishSortFields"
+					refimgid="3cf981c7-a2d7-471b-ba1d-f3edead90e4b"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'profilesettings']//input[@value='Finish']
+					</item>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="d4660e83-bf23-417c-a9b1-47d6d3e8addb"
+			isrooted="False"
+			name="ActionsPanels"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="9ff75095-8804-4361-ac5b-1c7a8ee43888"
+				name="BtnAddFrom"
+				refimgid="f92608d7-967b-4c63-a2cc-6df81b681383"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//tr[$varNumber]//img[@id='btnAdd']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="e6d44ec4-2543-4785-b0f7-14e814729163"
+				name="RadIndicatorType"
+				refimgid="e2d9584f-8ceb-4307-917a-76d199e90387"
+				refpath="/dom[@domain='localhost']//table[#'infoSettings']/tbody/tr[1]/td[2]/label[@innertext=' Indicator']/input[@name='radPanelType']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//table[#'infoSettings']//label[@innertext=' Indicator']/input[@name='radPanelType']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="95a8a214-ff07-4896-a20a-358bebf5411f"
+				name="TxtDisplayName"
+				refimgid="69ead4e7-9559-4aba-9517-4dc7276a9761"
+				refpath="/dom[@domain='localhost']//input[#'txtDisplayName']"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//input[#'txtDisplayName']
+				</item>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="6258d458-9a44-4d59-b4b2-598d2ffc5be3"
+				name="Color"
+				refimgid="ff05b391-1b15-47ff-baa6-94b3a09f8002"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//table[#'colorPickerTable']//td[@title=$varColor]
+				</item>
+				<folder
+				capname="unknown"
+				id="f4111e33-6dfd-4247-b530-f6bb85f02866"
+				isrooted="False"
+				name="HeatMap"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="ba2c211e-3ad8-4b47-96b8-803ac11ec7f4"
+					name="CbbCategoryField"
+					refimgid="c5c8ad95-56b9-497d-aa5a-e7c67454d81c"
+					refpath="/dom[@domain='localhost']//select[#'cbbCategoryField']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbCategoryField']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="c70263a8-fbbd-4731-906a-56473ae614c1"
+					name="RadHeatMapType"
+					refimgid="c6712843-b14a-4aec-aa28-fa6575157025"
+					refpath="/dom[@domain='localhost']//table[#'infoSettings']/tbody/tr[1]/td[2]/label[@innertext=' Heat Map']/input[@name='radPanelType']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//table[#'infoSettings']//label[@innertext=' Heat Map']/input[@name='radPanelType']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="4b4d88ba-76b8-426a-a964-95d05f2f8f8f"
+					name="CbbSeriesField"
+					refimgid="a071da6a-621b-49d3-95d8-4ac3fb998115"
+					refpath="/dom[@domain='localhost']//select[#'cbbSeriesField']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbSeriesField']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="257d62b8-2e9d-4248-bc69-e73149adfd65"
+					name="CbbSeriesValue"
+					refimgid="d7f012ce-3bc4-4953-816b-5fa9fb489d41"
+					refpath="/dom[@domain='localhost']//select[#'cbbSeriesValue']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbSeriesValue']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="66d716ff-c3ce-4dd7-891d-5b0d34ca8d60"
+					name="RadHeatValueDefault"
+					refimgid="5c2462ba-d12f-4c58-a666-0c934fb13445"
+					refpath="/dom[@domain='localhost']//input[#'radHeatValue_default']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//input[#'radHeatValue_default']
+					</item>
+					<item
+					addcaps="unknown,webelement,tdtag"
+					capname="inputtag"
+					id="8f44a469-171b-4944-b299-9566e29cff3b"
+					name="txtColor"
+					refimgid="a2c350d5-887a-4205-b2d1-fdce414a406c"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//input[#'txtColor']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="51c002cf-65d0-47f8-90f0-1e4a19539179"
+				isrooted="False"
+				name="Indicator"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,atag"
+					capname="atag"
+					id="3ffbf2f6-8ec1-41f6-8264-6c9a30b995a4"
+					name="EditPanel"
+					refimgid="b07a87ea-2882-4352-9721-33bee3fb39bd"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//form[#'form1']//table/tbody/tr/td/a[@innertext=$varDisplayName]//parent::td/following-sibling::td[3]/a[@innertext='Edit']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="6f47677b-dc78-496c-ae39-3ab03188fbee"
+					name="CbbStatField"
+					refimgid="9a4152fd-431f-4889-bb12-46b00d206145"
+					refpath="/dom[@domain='localhost']//select[#'cbbStatField']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbStatField']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="1d2f257e-bdb9-4940-a20b-9cdd832cfcfc"
+					name="CbbStatFieldValue"
+					refimgid="b96ca00c-223b-44f0-952b-c80adba918ba"
+					refpath="/dom[@domain='localhost']//select[#'cbbStatFieldValue']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//select[#'cbbStatFieldValue']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="ccde9df0-61ea-46c1-9a6d-898ae60d0ac8"
+					name="From"
+					refimgid="a7c77541-33ae-4a14-9a37-4b22f3798dba"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//tr[$varNumber]//input[@id='criteria']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="0eaab3a8-1c2f-4390-acb4-fa94af76a37b"
+					name="TxtColor"
+					refimgid="d46695b1-a87b-48ea-a4e1-dd42c97f9704"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//tr[$varNumber]//input[@id='txtColor']
+					</item>
+					<item
+					addcaps="unknown,webelement,atag"
+					capname="atag"
+					id="e5a48cbc-f20b-4f0f-90f8-2432325acbfa"
+					name="NewPanel"
+					refimgid="9a46debb-a2c6-403a-83fb-3b267d86e88f"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//form[#'form1']//table/tbody//a[@innertext=$varDisplayName]
+					</item>
+				</folder>
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="atag"
+				id="49f22aeb-0f8a-4776-acd6-46bbc2a4ae3a"
+				name="checkAllItems"
+				refimgid="82b38274-1c39-4b7d-85aa-3dd378bd1158"
+				searchtimeout="30000ms">
+					/dom[@domain='localhost']//form[#'form1']//a[@innertext='Check All']
+				</item>
+			</folder>
+			<basepath>
+				/dom[@domain='localhost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a89b6eed-e0ff-4f7b-a5ab-2fb683644fd2"
+		isrooted="True"
+		name="MessageFromWebpage"
+		refpath="/form[@title='Message from webpage']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f2eb7558-6e1e-4b10-b672-3a8fa265fc05"
+			name="ButtonOK"
+			refimgid="74e0994c-bc5b-449c-9104-d64b8d1a7097"
+			refpath="/form[@title='Message from webpage']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Message from webpage']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="button"
+		id="ef6ddbc2-796d-41cf-947f-6bc758773f04"
+		isrooted="True"
+		name="Chrome_Popup"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/form[@accessiblename='localhost says']//button[@accessiblename='OK']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7a172279-4e8e-493e-bb85-db8abb3a46e0"
+		isrooted="True"
+		name="chromepp"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="1b3d7834-0e29-460e-9586-51de91ddaf33"
+			name="ButtonOK"
+			refimgid="74e0994c-bc5b-449c-9104-d64b8d1a7097"
+			searchtimeout="30000ms">
+				/form[@accessiblename='localhost says']//button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@accessiblename='localhost says']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="9eccf8cf-7706-44a3-8a5c-76d4cc7a228e"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="894029d5-8de8-4a5a-9b81-314bbf499c20"
+			name="GoogleChrome1RunningWindow"
+			refimgid="1628a8f4-4aad-4508-8043-745a45daf611"
+			refpath="/menubar[@processname='explorer']/element[@class='WorkerW']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']/button[4]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']//toolbar[@accessiblename='Running applications']/button[4]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="352a4512-098d-4a2b-a20c-1796ea086442"
+		name="var">
+		</var>
+		<var
+		id="b1b90102-b72f-4f41-a881-59557ee6a285"
+		name="varName">
+		</var>
+		<var
+		id="739d76eb-a7ae-4c24-ad1f-6296c5052bed"
+		name="varItem">
+		</var>
+		<var
+		id="ba525e2f-cd9e-47c9-a2f6-d8ed1546f584"
+		name="varItemReport">
+		</var>
+		<var
+		id="011758ba-82f4-430f-9f38-df0b41527783"
+		name="varItemType">
+		</var>
+		<var
+		id="50d431d7-30c0-49d4-8526-80fca15b0a59"
+		name="varItemField">
+		</var>
+		<var
+		id="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
+		name="varItemDataProfile">
+		</var>
+		<var
+		id="9c6a7041-c892-4893-a933-71a344467922"
+		name="varItemFielded">
+		</var>
+		<var
+		id="9ba4778d-f504-4314-87cb-4cb9d050a92b"
+		name="varColor">
+		</var>
+		<var
+		id="bed04538-02d3-4668-b23f-49c379f09b92"
+		name="varNumber">
+		</var>
+		<var
+		id="b472c6fe-35b8-408a-b3c2-4ec395edcf46"
+		name="varDisplayName">
+		</var>
+		<var
+		id="4f0da9e7-9be5-4630-bac2-8de3bc3a7466"
+		name="varData">
+		</var>
+	</variables>
+</repository>

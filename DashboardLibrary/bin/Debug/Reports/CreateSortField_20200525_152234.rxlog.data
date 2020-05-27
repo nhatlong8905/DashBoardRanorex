@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.92s"
+		durationms="9922"
+		type="root"
+		rid="26fb220125fcf9bc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="9.3.1.0"
+		host="DESKTOP-ENEOKEN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3286x1080"
+		timestamp="5/25/2020 3:22:36 PM"
+		timestampiso="2020-05-25T08:22:36"
+		endtime="5/25/2020 3:22:46 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CreateSortField">
+		<detail>
+			CreateSortField
+		</detail>
+		<errormessage>
+			Item 'DashboardLibraryRepository.TestArchitect.ActionsDataProfile.SortField.CbbFields' is no InputTag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.198"
+			timeRelativeToTestModuleStartTime="00:07.198"
+			timeWallClock="15:22:43"
+			time="00:07.198"
+			level="Warn"
+			category="Data"
+			errimg="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace.jpg"
+			errthumb="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>varListOption, itemDataProfile
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.251"
+			timeRelativeToTestModuleStartTime="00:07.251"
+			timeWallClock="15:22:43"
+			time="00:07.251"
+			level="Info"
+			category="User"
+			errimg="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace.jpg"
+			errthumb="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.UserCode.cs"
+				codeline="48"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.251"
+			timeRelativeToTestModuleStartTime="00:07.251"
+			timeWallClock="15:22:43"
+			time="00:07.251"
+			level="Info"
+			category="User"
+			errimg="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace.jpg"
+			errthumb="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.UserCode.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.255"
+			timeRelativeToTestModuleStartTime="00:07.255"
+			timeWallClock="15:22:43"
+			time="00:07.255"
+			level="Info"
+			category="Select"
+			errimg="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace.jpg"
+			errthumb="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_ffbecdcf_trace_thumb.jpg">
+			<message>
+				SetValue item .
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost']//select[#'cbbFields']"
+				itempath=".//select[#'cbbFields']"
+				fullname="DashboardLibraryRepository.TestArchitect.ActionsDataProfile.SortField.CbbFields"
+				id="8a5fc8766b504d37b244700555373305"
+				timeout="60000"
+				codefile="E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.UserCode.cs"
+				codeline="54"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.698"
+			timeRelativeToTestModuleStartTime="00:09.698"
+			timeWallClock="15:22:46"
+			time="00:09.698"
+			level="Error"
+			category="Module"
+			errimg="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_f7bff66a_trace.jpg"
+			errthumb="images_CreateSo_8f55d2c9\CreateSo_8f55d2c9_f7bff66a_trace_thumb.jpg">
+			<message>
+				Item 'DashboardLibraryRepository.TestArchitect.ActionsDataProfile.SortField.CbbFields' is no InputTag.<br/>The element does not support the required capability 'inputtag'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at DashboardLibrary.ActionsDataProfile.CreateSortField.SelectAndAddLevel(RepoItemInfo selecttagInfo, RepoItemInfo inputtagInfo, String varListOption) in E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.UserCode.cs:line 55&#13;&#10;   at DashboardLibrary.ActionsDataProfile.CreateSortField.Ranorex.Core.Testing.ITestModule.Run() in E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.cs:line 105&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\ActionsDataProfile\CreateSortField.UserCode.cs"
+				codeline="55"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

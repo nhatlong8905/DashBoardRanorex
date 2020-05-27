@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bf9826af-e4ad-4e2c-89d2-83f5be10c12a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NavigateNewPage"
+	namespace="DashboardLibrary.ActionsPage">
+	</codegen>
+	<variables>
+		<var
+		id="b1b90102-b72f-4f41-a881-59557ee6a285"
+		name="varName">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3495440a-bbf3-4801-8586-7d3bbb5f3b90"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1264fad8-54dd-4bde-aa15-94fb5d37af57"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//div[#'main-menu']//ul//a[@innertext='Test20202105']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="79ca73f3-acca-4a00-b738-5d018afed2db"
+	name="DashboardLibraryRepository"
+	relativepath="..\DashboardLibraryRepository.rxrep">
+		<codegen
+		classname="DashboardLibraryRepository"
+		namespace="DashboardLibrary">
+		</codegen>
+		<rootfolder
+		id="b7ff0fae-7b8d-4910-97af-49ef286a1d67"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NavigateNewPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

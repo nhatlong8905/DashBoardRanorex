@@ -1,0 +1,12 @@
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\obj\x86\Debug\DashboardLibrary.csprojAssemblyReference.cache
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\obj\x86\Debug\DashboardLibrary.csproj.CoreCompileInputs.cache
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\DashboardLibrary.rxtmg
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\RepositoryImages\DashboardLibraryRepositoryb7ff0fae.rximgres
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\DashboardLibrary.xml
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\DashboardLibrary.dll
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\DashboardLibrary.pdb
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\Ranorex.Core.Resolver.dll
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\bin\Debug\Ranorex.Libs.Util.dll
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\obj\x86\Debug\DashboardLibrary.csproj.CopyComplete
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\obj\x86\Debug\DashboardLibrary.dll
+E:\1.SourceCode\RanorexProject\DashboardAutomation\DashboardLibrary\obj\x86\Debug\DashboardLibrary.pdb

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="51a05066-bb6e-42d2-8f34-5b559654833d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ConfirmChrome"
+	namespace="DashboardLibrary.MessageConfirm">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3ed8c46f-c678-4976-9b33-84184f55f2c6"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1b3d7834-0e29-460e-9586-51de91ddaf33"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@accessiblename='localhost says']//button[@accessiblename='OK']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="79ca73f3-acca-4a00-b738-5d018afed2db"
+	name="DashboardLibraryRepository"
+	relativepath="..\DashboardLibraryRepository.rxrep">
+		<codegen
+		classname="DashboardLibraryRepository"
+		namespace="DashboardLibrary">
+		</codegen>
+		<rootfolder
+		id="b7ff0fae-7b8d-4910-97af-49ef286a1d67"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ConfirmChrome.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

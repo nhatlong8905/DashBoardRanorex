@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{948C32EC-B91F-44F3-8025-749438D15F90}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardAutomation", "DashboardAutomation\DashboardAutomation.csproj", "{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardLibrary", "DashboardLibrary\DashboardLibrary.csproj", "{55262AA0-577B-4226-9AC7-726D7DFF41ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}.Debug|x86.Build.0 = Debug|x86
+		{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}.Debug|x86.ActiveCfg = Debug|x86
+		{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}.Release|x86.Build.0 = Release|x86
+		{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}.Release|x86.ActiveCfg = Release|x86
+		{55262AA0-577B-4226-9AC7-726D7DFF41ED}.Debug|x86.Build.0 = Debug|x86
+		{55262AA0-577B-4226-9AC7-726D7DFF41ED}.Debug|x86.ActiveCfg = Debug|x86
+		{55262AA0-577B-4226-9AC7-726D7DFF41ED}.Release|x86.Build.0 = Release|x86
+		{55262AA0-577B-4226-9AC7-726D7DFF41ED}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

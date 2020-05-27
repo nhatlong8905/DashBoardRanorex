@@ -1,0 +1,2410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DashboardLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DashboardLibrary.ActionsDataProfile.CreateDislayField">
+             <summary>
+            The CreateDislayField recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.CreateDislayField.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateDislayField.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateDislayField.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateDislayField.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.CreateDislayField.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateDislayField.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateDislayField.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings">
+             <summary>
+            The CreateGeneralSettings recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.dataName">
+            <summary>
+            Gets or sets the value of variable dataName.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.varItemType">
+            <summary>
+            Gets or sets the value of variable varItemType.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.varItemReport">
+            <summary>
+            Gets or sets the value of variable varItemReport.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateGeneralSettings.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.CreateSortField">
+             <summary>
+            The CreateSortField recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.CreateSortField.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateSortField.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateSortField.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateSortField.varListOption">
+            <summary>
+            Gets or sets the value of variable varListOption.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.CreateSortField.varItemDataProfile">
+            <summary>
+            Gets or sets the value of variable varItemDataProfile.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateSortField.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.CreateSortField.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateSortField.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.CreateSortField.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.DeleteDataProfile">
+             <summary>
+            The DeleteDataProfile recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.varItemDataProfile">
+            <summary>
+            Gets or sets the value of variable varItemDataProfile.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.EditGeneralSetting">
+             <summary>
+            The EditGeneralSetting recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.varItemDataProfileUpdate">
+            <summary>
+            Gets or sets the value of variable varItemDataProfileUpdate.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.varItemDataProfile">
+            <summary>
+            Gets or sets the value of variable varItemDataProfile.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting">
+             <summary>
+            The OpenGeneralSetting recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.varItemDataProfile">
+            <summary>
+            Gets or sets the value of variable varItemDataProfile.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.varItemType">
+            <summary>
+            Gets or sets the value of variable varItemType.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.varItemReport">
+            <summary>
+            Gets or sets the value of variable varItemReport.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenGeneralSetting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.OpenDisplayField">
+             <summary>
+            The OpenDisplayField recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.OpenDisplayField.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenDisplayField.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenDisplayField.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenDisplayField.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.OpenDisplayField.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenDisplayField.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenDisplayField.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsDataProfile.OpenSortField">
+             <summary>
+            The OpenSortField recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsDataProfile.OpenSortField.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenSortField.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.OpenSortField.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenSortField.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.OpenSortField.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenSortField.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsDataProfile.OpenSortField.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPage.EditPage">
+             <summary>
+            The EditPage recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPage.EditPage.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.EditPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.EditPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.EditPage.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.EditPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPage.EditPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.EditPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.EditPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPage.NavigateNewPage">
+             <summary>
+            The NavigateNewPage recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPage.NavigateNewPage.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateNewPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.NavigateNewPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.NavigateNewPage.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateNewPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPage.NavigateNewPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateNewPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateNewPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPage.NavigateUpdatePage">
+             <summary>
+            The NavigateUpdatePage recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPage.NavigateUpdatePage.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateUpdatePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.curName">
+            <summary>
+            Gets or sets the value of variable curName.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateUpdatePage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateUpdatePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.NavigateUpdatePage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPage.CreatePage">
+             <summary>
+            The CreatePage recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPage.CreatePage.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.CreatePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.CreatePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPage.CreatePage.pageName">
+            <summary>
+            Gets or sets the value of variable pageName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.CreatePage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPage.CreatePage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.CreatePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPage.CreatePage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator">
+             <summary>
+            The CreateNewPanelIndicator recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varStatField">
+            <summary>
+            Gets or sets the value of variable varStatField.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varStatFieldValue">
+            <summary>
+            Gets or sets the value of variable varStatFieldValue.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varFromColor">
+            <summary>
+            Gets or sets the value of variable varFromColor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varNumber">
+            <summary>
+            Gets or sets the value of variable varNumber.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varColor">
+            <summary>
+            Gets or sets the value of variable varColor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.varDisplayName">
+            <summary>
+            Gets or sets the value of variable varDisplayName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPanelIndicator.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap">
+             <summary>
+            The CreateNewPannelHeatMap recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.varCatelogy">
+            <summary>
+            Gets or sets the value of variable varCatelogy.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.varSeries">
+            <summary>
+            Gets or sets the value of variable varSeries.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.varSeriesValue">
+            <summary>
+            Gets or sets the value of variable varSeriesValue.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.varColor">
+            <summary>
+            Gets or sets the value of variable varColor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.varDisplayName">
+            <summary>
+            Gets or sets the value of variable varDisplayName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.CreateNewPannelHeatMap.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPanels.DeleteAllPanels">
+             <summary>
+            The DeleteAllPanels recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPanels.DeleteAllPanels.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.DeleteAllPanels.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.DeleteAllPanels.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.DeleteAllPanels.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.DeleteAllPanels.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.DeleteAllPanels.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.DeleteAllPanels.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.ActionsPanels.EditNewPanel">
+             <summary>
+            The EditNewPanel recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.ActionsPanels.EditNewPanel.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.EditNewPanel.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.ActionsPanels.EditNewPanel.varDisplayName">
+            <summary>
+            Gets or sets the value of variable varDisplayName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.EditNewPanel.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.Administer.SelectDataProfiles">
+             <summary>
+            The SelectDataProfiles recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.Administer.SelectDataProfiles.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectDataProfiles.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.Administer.SelectDataProfiles.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectDataProfiles.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.Administer.SelectDataProfiles.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectDataProfiles.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectDataProfiles.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.Administer.SelectPanels">
+             <summary>
+            The SelectPanels recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.Administer.SelectPanels.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectPanels.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.Administer.SelectPanels.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectPanels.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.Administer.SelectPanels.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectPanels.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.Administer.SelectPanels.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the DashboardAutomationRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardAutomationRepository">
+            <summary>
+            The class representing the DashboardAutomationRepository element repository.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardAutomationRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DashboardAutomationRepository element repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardAutomationRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardAutomationRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardAutomationRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardAutomationRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardAutomationRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardAutomationRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardAutomationRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardAutomationRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepository">
+            <summary>
+            The class representing the DashboardLibraryRepository element repository.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DashboardLibraryRepository element repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.var">
+            <summary>
+            Gets or sets the value of variable var.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItem">
+            <summary>
+            Gets or sets the value of variable varItem.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItemReport">
+            <summary>
+            Gets or sets the value of variable varItemReport.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItemType">
+            <summary>
+            Gets or sets the value of variable varItemType.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItemField">
+            <summary>
+            Gets or sets the value of variable varItemField.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItemDataProfile">
+            <summary>
+            Gets or sets the value of variable varItemDataProfile.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varItemFielded">
+            <summary>
+            Gets or sets the value of variable varItemFielded.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varColor">
+            <summary>
+            Gets or sets the value of variable varColor.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varNumber">
+            <summary>
+            Gets or sets the value of variable varNumber.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varDisplayName">
+            <summary>
+            Gets or sets the value of variable varDisplayName.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.varData">
+            <summary>
+            Gets or sets the value of variable varData.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.TestArchitect">
+            <summary>
+            The TestArchitect folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.MessageFromWebpage">
+            <summary>
+            The MessageFromWebpage folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.Chrome_Popup">
+            <summary>
+            The Chrome_Popup folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.chromepp">
+            <summary>
+            The chromepp folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder">
+            <summary>
+            The TestArchitectAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TestArchitect  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.GlobalSetting">
+            <summary>
+            The GlobalSetting item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.GlobalSettingInfo">
+            <summary>
+            The GlobalSetting item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.PageName">
+            <summary>
+            The PageName item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.PageNameInfo">
+            <summary>
+            The PageName item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.PageOK">
+            <summary>
+            The PageOK item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.PageOKInfo">
+            <summary>
+            The PageOK item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.Administrator">
+            <summary>
+            The Administrator item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.AdministratorInfo">
+            <summary>
+            The Administrator item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.TestPageTab">
+            <summary>
+            The TestPageTab item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.TestPageTabInfo">
+            <summary>
+            The TestPageTab item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.loginDashboard">
+            <summary>
+            The loginDashboard folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.Administers">
+            <summary>
+            The Administers folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.ActionsPage">
+            <summary>
+            The ActionsPage folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.ActionsDataProfile">
+            <summary>
+            The ActionsDataProfile folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.TestArchitectAppFolder.ActionsPanels">
+            <summary>
+            The ActionsPanels folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder">
+            <summary>
+            The LoginDashboardFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new loginDashboard  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.LoginDashboardFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder">
+            <summary>
+            The AdministersFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Administers  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.Administer">
+            <summary>
+            The Administer item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.AdministerInfo">
+            <summary>
+            The Administer item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.DataProfiles">
+            <summary>
+            The DataProfiles item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.DataProfilesInfo">
+            <summary>
+            The DataProfiles item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.Panels">
+            <summary>
+            The Panels item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.PanelsInfo">
+            <summary>
+            The Panels item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.AddNew">
+            <summary>
+            The AddNew item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.AddNewInfo">
+            <summary>
+            The AddNew item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.DeleteAllItems">
+            <summary>
+            The DeleteAllItems item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.AdministersFolder.DeleteAllItemsInfo">
+            <summary>
+            The DeleteAllItems item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder">
+            <summary>
+            The ActionsPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ActionsPage  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.AddPage">
+            <summary>
+            The AddPage item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.AddPageInfo">
+            <summary>
+            The AddPage item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.EditPage">
+            <summary>
+            The EditPage item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.EditPageInfo">
+            <summary>
+            The EditPage item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.DeletePage">
+            <summary>
+            The DeletePage item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPageFolder.DeletePageInfo">
+            <summary>
+            The DeletePage item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder">
+            <summary>
+            The ActionsDataProfileFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ActionsDataProfile  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.EditDataProfile">
+            <summary>
+            The EditDataProfile item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.EditDataProfileInfo">
+            <summary>
+            The EditDataProfile item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.ItemDataProfile">
+            <summary>
+            The ItemDataProfile item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.ItemDataProfileInfo">
+            <summary>
+            The ItemDataProfile item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.EditDataProfileChrome">
+            <summary>
+            The EditDataProfileChrome item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.EditDataProfileChromeInfo">
+            <summary>
+            The EditDataProfileChrome item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.ButtonProfileSetting">
+            <summary>
+            The ButtonProfileSetting item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.ButtonProfileSettingInfo">
+            <summary>
+            The ButtonProfileSetting item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.DeleteItemDataProfile">
+            <summary>
+            The DeleteItemDataProfile item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.DeleteItemDataProfileInfo">
+            <summary>
+            The DeleteItemDataProfile item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.CreateGeneralSettings">
+            <summary>
+            The CreateGeneralSettings folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.DislayField">
+            <summary>
+            The DislayField folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsDataProfileFolder.SortField">
+            <summary>
+            The SortField folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder">
+            <summary>
+            The CreateGeneralSettingsFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateGeneralSettings  folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReportInfoClass">
+            <summary>
+            The CbbSubReportInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReportInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            CbbSubReportInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReportInfoClass.GetRelated_Test_Result">
+            <summary>
+            Gets the Related_Test_Result item image.
+            </summary>
+            <returns>The Related_Test_Result image.</returns>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReportInfoClass.GetRelated_Test_Result(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Related_Test_Result item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemTypeInfoClass">
+            <summary>
+            The CbbItemTypeInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemTypeInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            CbbItemTypeInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemTypeInfoClass.GetTestModules">
+            <summary>
+            Gets the TestModules item image.
+            </summary>
+            <returns>The TestModules image.</returns>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemTypeInfoClass.GetTestModules(System.Drawing.Rectangle)">
+            <summary>
+            Gets the TestModules item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.ChkDistinct">
+            <summary>
+            The ChkDistinct item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.ChkDistinctInfo">
+            <summary>
+            The ChkDistinct item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReport">
+            <summary>
+            The CbbSubReport item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbSubReportInfo">
+            <summary>
+            The CbbSubReport item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemType">
+            <summary>
+            The CbbItemType item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.CbbItemTypeInfo">
+            <summary>
+            The CbbItemType item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.TxtProfileName">
+            <summary>
+            The TxtProfileName item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.TxtProfileNameInfo">
+            <summary>
+            The TxtProfileName item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.ButtonNext">
+            <summary>
+            The ButtonNext item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.CreateGeneralSettingsFolder.ButtonNextInfo">
+            <summary>
+            The ButtonNext item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder">
+            <summary>
+            The DislayFieldFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DislayField  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.DisplayFields">
+            <summary>
+            The DisplayFields item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.DisplayFieldsInfo">
+            <summary>
+            The DisplayFields item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkDescription">
+            <summary>
+            The ChkDescription item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkDescriptionInfo">
+            <summary>
+            The ChkDescription item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkName">
+            <summary>
+            The ChkName item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkNameInfo">
+            <summary>
+            The ChkName item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkSource">
+            <summary>
+            The ChkSource item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkSourceInfo">
+            <summary>
+            The ChkSource item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkAssigned">
+            <summary>
+            The ChkAssigned item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkAssignedInfo">
+            <summary>
+            The ChkAssigned item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkStatus">
+            <summary>
+            The ChkStatus item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkStatusInfo">
+            <summary>
+            The ChkStatus item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkNotes">
+            <summary>
+            The ChkNotes item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkNotesInfo">
+            <summary>
+            The ChkNotes item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkUrl">
+            <summary>
+            The ChkUrl item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ChkUrlInfo">
+            <summary>
+            The ChkUrl item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ButtonNextField">
+            <summary>
+            The ButtonNextField item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.DislayFieldFolder.ButtonNextFieldInfo">
+            <summary>
+            The ButtonNextField item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder">
+            <summary>
+            The SortFieldFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SortField  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.SortFields">
+            <summary>
+            The SortFields item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.SortFieldsInfo">
+            <summary>
+            The SortFields item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.CbbFields">
+            <summary>
+            The CbbFields item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.CbbFieldsInfo">
+            <summary>
+            The CbbFields item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.BtnAddSortField">
+            <summary>
+            The BtnAddSortField item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.BtnAddSortFieldInfo">
+            <summary>
+            The BtnAddSortField item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagLocation">
+            <summary>
+            The TagLocation item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagLocationInfo">
+            <summary>
+            The TagLocation item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagStatus">
+            <summary>
+            The TagStatus item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagStatusInfo">
+            <summary>
+            The TagStatus item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagURL">
+            <summary>
+            The TagURL item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.TagURLInfo">
+            <summary>
+            The TagURL item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.ButtonFinishSortFields">
+            <summary>
+            The ButtonFinishSortFields item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.SortFieldFolder.ButtonFinishSortFieldsInfo">
+            <summary>
+            The ButtonFinishSortFields item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder">
+            <summary>
+            The ActionsPanelsFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ActionsPanels  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.BtnAddFrom">
+            <summary>
+            The BtnAddFrom item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.BtnAddFromInfo">
+            <summary>
+            The BtnAddFrom item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.RadIndicatorType">
+            <summary>
+            The RadIndicatorType item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.RadIndicatorTypeInfo">
+            <summary>
+            The RadIndicatorType item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.TxtDisplayName">
+            <summary>
+            The TxtDisplayName item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.TxtDisplayNameInfo">
+            <summary>
+            The TxtDisplayName item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.Color">
+            <summary>
+            The Color item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.ColorInfo">
+            <summary>
+            The Color item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.checkAllItems">
+            <summary>
+            The checkAllItems item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.checkAllItemsInfo">
+            <summary>
+            The checkAllItems item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.HeatMap">
+            <summary>
+            The HeatMap folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ActionsPanelsFolder.Indicator">
+            <summary>
+            The Indicator folder.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder">
+            <summary>
+            The HeatMapFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HeatMap  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbCategoryField">
+            <summary>
+            The CbbCategoryField item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbCategoryFieldInfo">
+            <summary>
+            The CbbCategoryField item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.RadHeatMapType">
+            <summary>
+            The RadHeatMapType item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.RadHeatMapTypeInfo">
+            <summary>
+            The RadHeatMapType item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbSeriesField">
+            <summary>
+            The CbbSeriesField item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbSeriesFieldInfo">
+            <summary>
+            The CbbSeriesField item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbSeriesValue">
+            <summary>
+            The CbbSeriesValue item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.CbbSeriesValueInfo">
+            <summary>
+            The CbbSeriesValue item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.RadHeatValueDefault">
+            <summary>
+            The RadHeatValueDefault item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.RadHeatValueDefaultInfo">
+            <summary>
+            The RadHeatValueDefault item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.txtColor">
+            <summary>
+            The txtColor item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.HeatMapFolder.txtColorInfo">
+            <summary>
+            The txtColor item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder">
+            <summary>
+            The IndicatorFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Indicator  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.EditPanel">
+            <summary>
+            The EditPanel item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.EditPanelInfo">
+            <summary>
+            The EditPanel item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.CbbStatField">
+            <summary>
+            The CbbStatField item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.CbbStatFieldInfo">
+            <summary>
+            The CbbStatField item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.CbbStatFieldValue">
+            <summary>
+            The CbbStatFieldValue item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.CbbStatFieldValueInfo">
+            <summary>
+            The CbbStatFieldValue item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.From">
+            <summary>
+            The From item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.FromInfo">
+            <summary>
+            The From item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.TxtColor">
+            <summary>
+            The TxtColor item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.TxtColorInfo">
+            <summary>
+            The TxtColor item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.NewPanel">
+            <summary>
+            The NewPanel item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.IndicatorFolder.NewPanelInfo">
+            <summary>
+            The NewPanel item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder">
+            <summary>
+            The MessageFromWebpageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MessageFromWebpage  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder">
+            <summary>
+            The Chrome_PopupAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome_Popup  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder">
+            <summary>
+            The ChromeppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new chromepp  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindow">
+            <summary>
+            The GoogleChrome1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindowInfo">
+            <summary>
+            The GoogleChrome1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting">
+             <summary>
+            The AddPageGlobalSetting recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting">
+             <summary>
+            The DeletePageGlobalSetting recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.DeletePageGlobalSetting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting">
+             <summary>
+            The EditPageGlobalSetting recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.GlobalSettingRecording.EditPageGlobalSetting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.Login">
+             <summary>
+            The login recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.Login.repo">
+            <summary>
+            Holds an instance of the DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.Login.varUserName">
+            <summary>
+            Gets or sets the value of variable varUserName.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.LogOut">
+             <summary>
+            The LogOut recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.LogOut.repo">
+            <summary>
+            Holds an instance of the DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.LogOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.LogOut.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.LogOut.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.LogOut.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.LogOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.LogOut.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.MessageConfirm.ConfirmChrome">
+             <summary>
+            The ConfirmChrome recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.MessageConfirm.ConfirmChrome.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmChrome.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.MessageConfirm.ConfirmChrome.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmChrome.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.MessageConfirm.ConfirmChrome.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmChrome.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmChrome.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.MessageConfirm.ConfirmIE">
+             <summary>
+            The ConfirmIE recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.MessageConfirm.ConfirmIE.repo">
+            <summary>
+            Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmIE.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.MessageConfirm.ConfirmIE.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmIE.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.MessageConfirm.ConfirmIE.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmIE.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.MessageConfirm.ConfirmIE.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DashboardLibrary.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the DashboardAutomationRepository repository.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.OpenBrowser.url">
+            <summary>
+            Gets or sets the value of variable url.
+            </summary>
+        </member>
+        <member name="P:DashboardLibrary.OpenBrowser.browser">
+            <summary>
+            Gets or sets the value of variable browser.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DashboardLibrary.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.StartWatchingPopup">
+            <summary>
+            Description of InitPopupWatcher.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.StartWatchingPopup.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.StartWatchingPopup.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:DashboardLibrary.StopWatchingPopup">
+            <summary>
+            Description of StopWatchingPopup.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.StopWatchingPopup.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.StopWatchingPopup.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:DashboardLibrary.UserCodeUtilities">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:DashboardLibrary.UserCodeUtilities.getName">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:DashboardLibrary.WatchAutoComplete">
+            <summary>
+            Description of PopupWatcher.
+            </summary>
+        </member>
+    </members>
+</doc>

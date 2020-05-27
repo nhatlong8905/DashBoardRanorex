@@ -1,0 +1,20 @@
+﻿<repository
+id="cb41bffa-1a14-493a-8a44-821aac9134db"
+name="DashboardAutomationRepository">
+	<codegen
+	classname="DashboardAutomationRepository"
+	namespace="DashboardAutomation">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="35f002a1-ef3b-4e9c-98d4-09d5c83f1135"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
