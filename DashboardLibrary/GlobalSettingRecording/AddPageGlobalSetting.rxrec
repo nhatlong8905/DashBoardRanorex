@@ -23,10 +23,6 @@ mode="Global">
 	namespace="DashboardLibrary.GlobalSettingRecording">
 	</codegen>
 	<variables>
-		<var
-		id="b1b90102-b72f-4f41-a881-59557ee6a285"
-		name="varName">
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

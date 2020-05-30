@@ -1,14 +1,13 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="ActionsDataProfile\DeleteDataProfile.rxrec" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ActionsDataProfile\DeleteDataProfile.rxrec" />
+    <Element value="DashboardLibrary.rxtmg" />
+    <Element value="MessageConfirm\ConfirmChrome.rxrec" />
+    <Element value="GlobalSettingRecording\DeletePageGlobalSetting.rxrec" />
+    <Element value="ActionsPage\EditPage.rxrec" />
     <Element value="UserCodeUtilities.cs" />
-    <Element value="Constants.cs" />
     <Element value="ActionsDataProfile\CreateGeneralSettings.rxrec" />
-    <Element value="ActionsDataProfile\EditGeneralSetting.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

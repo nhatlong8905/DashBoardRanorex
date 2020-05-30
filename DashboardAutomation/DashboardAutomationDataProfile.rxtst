@@ -184,8 +184,8 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="varItemDataProfileUpdate"
-					datasourceid="ffe28869-7cf7-4928-b022-6c24ef931d1f"
+					dataname="Name"
+					datasourceid="61dd070d-c044-434a-b348-3305eec381d6"
 					variableid="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
 					variablename="varItemDataProfile">
 					</var>
@@ -322,13 +322,15 @@
 					variableid="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
 					variablename="varItemDataProfile">
 					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="varItemDataProfileUpdate"
 					datasourceid="ffe28869-7cf7-4928-b022-6c24ef931d1f"
 					variableid="ee3d9c15-c201-4965-a3b0-51d29e7879c3"
 					variablename="varItemDataProfileUpdate">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="a5310cfe-5656-4960-be3f-54db51e5b768"
@@ -408,10 +410,6 @@
 					name="username"
 					value="administrator">
 					</param>
-					<param
-					name="varItemDataProfileUpdate"
-					value="">
-					</param>
 				</parameters>
 			</testcase>
 		</flatlistofchildren>
@@ -437,13 +435,13 @@
 							name="NavigateLogin">
 							</modulegroup>
 						</setup>
-						<testmodule
-						id="4adca692-a154-4596-af19-d7aba4f74d0d"
-						name="SelectDataProfiles">
-						</testmodule>
 						<smartfoldernode
 						id="72195888-3c9d-4952-a9f7-a1a64bf570b4"
 						name="CreateDataProfile">
+							<testmodule
+							id="4adca692-a154-4596-af19-d7aba4f74d0d"
+							name="SelectDataProfiles">
+							</testmodule>
 							<testmodule
 							id="067ab019-8870-49f0-936d-0143aa9a3e7c"
 							name="CreateGeneralSettings">
@@ -489,13 +487,13 @@
 							name="NavigateLogin">
 							</modulegroup>
 						</setup>
-						<testmodule
-						id="d1b4f62e-c240-47d1-8ccc-f2472006d87f"
-						name="SelectDataProfiles">
-						</testmodule>
 						<smartfoldernode
 						id="907b8c05-bbaa-4ee5-ad7e-78f88f8d2366"
 						name="EditDataProfile">
+							<testmodule
+							id="d1b4f62e-c240-47d1-8ccc-f2472006d87f"
+							name="SelectDataProfiles">
+							</testmodule>
 							<testmodule
 							id="9f8c5c81-1673-4b75-b9a0-a1efcb426515"
 							name="EditGeneralSetting">
@@ -591,7 +589,7 @@
 				</tr>
 				<tr>
 					<td>
-						Chrome
+						IE
 					</td>
 				</tr>
 			</table>
@@ -599,7 +597,7 @@
 		<DataSource
 		id="61dd070d-c044-434a-b348-3305eec381d6"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="20"
 		name="DataProfile"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">

@@ -461,12 +461,6 @@
 			ref="66c8ab92-b9a1-47d6-8df9-9b4df2e80074"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="e46ce9a7-c4df-479e-b386-5241231f4aff"
-			name="StartWatchingPopup"
-			ref="77069f78-66fa-41ee-9bc3-a658da488ad8"
-			type="UserCode">
-			</testmodule>
 			<teardown
 			id="f15c1968-9e36-48a2-b8b2-5883c782724f"
 			name="teardown">
@@ -488,12 +482,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="fd2fe4b0-7fd1-4b71-b612-c0a2e88a3e11"
-			name="StopWatchingPopup"
-			ref="3ddee1a2-e900-4273-bdaf-ede19376659e"
-			type="UserCode">
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -505,10 +493,6 @@
 					<setup
 					id="3334b508-a4e1-4876-81e7-5ef7a2a19c87"
 					name="setup">
-						<testmodule
-						id="e46ce9a7-c4df-479e-b386-5241231f4aff"
-						name="StartWatchingPopup">
-						</testmodule>
 					</setup>
 					<testcase
 					id="15162223-119a-448d-9d2d-efb783150ed3"
@@ -525,13 +509,13 @@
 							name="Login">
 							</testmodule>
 						</setup>
-						<testmodule
-						id="8a473d98-da0e-46fb-a97a-b014967c1bcd"
-						name="AddPageGlobalSetting">
-						</testmodule>
 						<smartfoldernode
 						id="9b54468c-2639-4d95-8980-8304cc73fb5b"
 						name="CreatePage">
+							<testmodule
+							id="8a473d98-da0e-46fb-a97a-b014967c1bcd"
+							name="AddPageGlobalSetting">
+							</testmodule>
 							<testmodule
 							id="b5317173-03b0-4a8e-a29f-55b263f78386"
 							name="CreatePage">
@@ -656,22 +640,22 @@
 							id="7e61e5ca-9394-43ba-90a3-545c9a009732"
 							name="DeletePageGlobalSetting">
 							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="11fb58a4-6595-4b6d-a5d7-5e38098ce6b6"
-						name="ChromeConfirm">
-							<testmodule
-							id="5809b543-cad4-4035-8bd8-8233e6893bae"
-							name="ConfirmChrome">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="3fc7eb03-1daf-4181-863a-7009994e035a"
-						name="IEConfirm">
-							<testmodule
-							id="843c6d93-b54c-4b19-9c36-4ee478e2502e"
-							name="ConfirmIE">
-							</testmodule>
+							<smartfoldernode
+							id="11fb58a4-6595-4b6d-a5d7-5e38098ce6b6"
+							name="ChromeConfirm">
+								<testmodule
+								id="5809b543-cad4-4035-8bd8-8233e6893bae"
+								name="ConfirmChrome">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="3fc7eb03-1daf-4181-863a-7009994e035a"
+							name="IEConfirm">
+								<testmodule
+								id="843c6d93-b54c-4b19-9c36-4ee478e2502e"
+								name="ConfirmIE">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 						<teardown
 						id="a3bd1857-6da0-42e5-bf72-e2ca4673c7f1"
@@ -689,10 +673,6 @@
 					<teardown
 					id="f15c1968-9e36-48a2-b8b2-5883c782724f"
 					name="teardown">
-						<testmodule
-						id="fd2fe4b0-7fd1-4b71-b612-c0a2e88a3e11"
-						name="StopWatchingPopup">
-						</testmodule>
 					</teardown>
 				</testcase>
 			</testsuite>
@@ -719,7 +699,7 @@
 				</tr>
 				<tr>
 					<td>
-						Chrome
+						IE
 					</td>
 				</tr>
 			</table>
@@ -727,7 +707,7 @@
 		<DataSource
 		id="48fb4b3c-3271-46c0-8a96-5f8cc9bcf1c2"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="19"
 		name="DataPage"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">

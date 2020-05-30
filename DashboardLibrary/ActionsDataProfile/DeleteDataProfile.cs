@@ -42,6 +42,7 @@ namespace DashboardLibrary.ActionsDataProfile
         public DeleteDataProfile()
         {
             varItemDataProfile = "";
+            varName = "";
         }
 
         /// <summary>
@@ -62,6 +63,16 @@ namespace DashboardLibrary.ActionsDataProfile
         {
             get { return repo.varItemDataProfile; }
             set { repo.varItemDataProfile = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable varName.
+        /// </summary>
+        [TestVariable("5dbaf6f7-ae32-43af-9c0b-f371c9329137")]
+        public string varName
+        {
+            get { return repo.varName; }
+            set { repo.varName = value; }
         }
 
 #endregion
@@ -90,7 +101,10 @@ namespace DashboardLibrary.ActionsDataProfile
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.DeleteItemDataProfile' at Center.", repo.TestArchitect.ActionsDataProfile.DeleteItemDataProfileInfo, new RecordItemIndex(0));
+            varItemDataProfile = UserCodeUtilities.updateName(varItemDataProfile);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.DeleteItemDataProfile' at Center.", repo.TestArchitect.ActionsDataProfile.DeleteItemDataProfileInfo, new RecordItemIndex(1));
             repo.TestArchitect.ActionsDataProfile.DeleteItemDataProfile.Click();
             Delay.Milliseconds(0);
             

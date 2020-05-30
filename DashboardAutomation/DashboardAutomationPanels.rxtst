@@ -428,7 +428,7 @@
 			</modulegroup>
 			<testmodule
 			id="e7a7f68c-7a5c-4a13-ab6c-77437a924abd"
-			name="EditNewPanel"
+			name="EditPanel"
 			ref="e4323cdc-1f6d-422b-85f6-c0e3f8e2eab5"
 			type="Recording">
 				<databinding>
@@ -539,7 +539,7 @@
 						name="EditPanel">
 							<testmodule
 							id="e7a7f68c-7a5c-4a13-ab6c-77437a924abd"
-							name="EditNewPanel">
+							name="EditPanel">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
@@ -656,7 +656,7 @@
 				</tr>
 				<tr>
 					<td>
-						Chrome
+						IE
 					</td>
 				</tr>
 			</table>
@@ -664,7 +664,7 @@
 		<DataSource
 		id="f0b1ee85-f706-41ea-a753-7dd083e427d4"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="20"
 		name="DataPanelHeatMap"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -697,7 +697,7 @@
 		<DataSource
 		id="61dc6580-6350-4496-98e3-cdbbc3abf8c4"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="20"
 		name="DataPanelIndicator"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">

@@ -305,15 +305,15 @@
       <UserCode>true</UserCode>
       <id>e9ac349d-f7c0-4678-b001-e960b297c477</id>
     </Compile>
-    <Compile Include="ActionsPanels\EditNewPanel.cs">
+    <Compile Include="ActionsPanels\EditPanel.cs">
       <BoundTo>0868b7a7-a855-4cee-8c8a-83f0c2ed34cd</BoundTo>
-      <DependentUpon>EditNewPanel.rxrec</DependentUpon>
+      <DependentUpon>EditPanel.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>54461b9e-05f2-4937-a4fe-3fc76049a472</id>
     </Compile>
-    <Compile Include="ActionsPanels\EditNewPanel.UserCode.cs">
+    <Compile Include="ActionsPanels\EditPanel.UserCode.cs">
       <BoundTo>0868b7a7-a855-4cee-8c8a-83f0c2ed34cd</BoundTo>
-      <DependentUpon>EditNewPanel.rxrec</DependentUpon>
+      <DependentUpon>EditPanel.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>9ea166ee-7699-4985-aa10-8da58ceaabc1</id>
     </Compile>
@@ -464,17 +464,8 @@
       <id>fff73279-74ad-4efe-afd0-27e7266f6295</id>
       <BoundTo>fa4c8025-25bf-42dd-88c0-bffd5f57b16d</BoundTo>
     </Compile>
-    <Compile Include="StartWatchingPopup.cs">
-      <id>dcdf2bc5-bbf2-418b-8d47-53a5aa71b5ce</id>
-    </Compile>
-    <Compile Include="StopWatchingPopup.cs">
-      <id>d9827b6b-4200-4808-aebf-3fb21f94b07e</id>
-    </Compile>
     <Compile Include="UserCodeUtilities.cs">
       <id>2cc1c8bd-3c85-4ada-b763-3c1fc4f89697</id>
-    </Compile>
-    <Compile Include="WatchAutoComplete.cs">
-      <id>339302b2-f128-4082-9c7b-14566df9e153</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -529,9 +520,9 @@
       <recordtableid>bf9826af-e4ad-4e2c-89d2-83f5be10c12a</recordtableid>
     </None>
     <None Include="ActionsPage\NavigateUpdatePage.rxrec">
-      <BoundTo>0d4e95db-5e48-4652-8079-b79eee8d181e</BoundTo>
       <id>9bccda22-5f27-4209-93a8-598158a7924a</id>
       <recordtableid>843faa99-4452-404a-9a7c-de096f38bd71</recordtableid>
+      <BoundTo>0d4e95db-5e48-4652-8079-b79eee8d181e</BoundTo>
     </None>
     <None Include="ActionsPage\CreatePage.rxrec">
       <BoundTo>0d4e95db-5e48-4652-8079-b79eee8d181e</BoundTo>
@@ -553,7 +544,7 @@
       <id>04c609c2-7f1c-4c72-9075-d9a29db6adff</id>
       <recordtableid>8efb563b-2c9c-4ef1-a94b-b4209aec4141</recordtableid>
     </None>
-    <None Include="ActionsPanels\EditNewPanel.rxrec">
+    <None Include="ActionsPanels\EditPanel.rxrec">
       <BoundTo>0d4e95db-5e48-4652-8079-b79eee8d181e</BoundTo>
       <id>0868b7a7-a855-4cee-8c8a-83f0c2ed34cd</id>
       <recordtableid>e4323cdc-1f6d-422b-85f6-c0e3f8e2eab5</recordtableid>

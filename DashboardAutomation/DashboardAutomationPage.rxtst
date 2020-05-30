@@ -509,13 +509,13 @@
 							name="Login">
 							</testmodule>
 						</setup>
-						<testmodule
-						id="8a473d98-da0e-46fb-a97a-b014967c1bcd"
-						name="AddPageGlobalSetting">
-						</testmodule>
 						<smartfoldernode
 						id="9b54468c-2639-4d95-8980-8304cc73fb5b"
 						name="CreatePage">
+							<testmodule
+							id="8a473d98-da0e-46fb-a97a-b014967c1bcd"
+							name="AddPageGlobalSetting">
+							</testmodule>
 							<testmodule
 							id="b5317173-03b0-4a8e-a29f-55b263f78386"
 							name="CreatePage">
@@ -640,22 +640,22 @@
 							id="7e61e5ca-9394-43ba-90a3-545c9a009732"
 							name="DeletePageGlobalSetting">
 							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="11fb58a4-6595-4b6d-a5d7-5e38098ce6b6"
-						name="ChromeConfirm">
-							<testmodule
-							id="5809b543-cad4-4035-8bd8-8233e6893bae"
-							name="ConfirmChrome">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="3fc7eb03-1daf-4181-863a-7009994e035a"
-						name="IEConfirm">
-							<testmodule
-							id="843c6d93-b54c-4b19-9c36-4ee478e2502e"
-							name="ConfirmIE">
-							</testmodule>
+							<smartfoldernode
+							id="11fb58a4-6595-4b6d-a5d7-5e38098ce6b6"
+							name="ChromeConfirm">
+								<testmodule
+								id="5809b543-cad4-4035-8bd8-8233e6893bae"
+								name="ConfirmChrome">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="3fc7eb03-1daf-4181-863a-7009994e035a"
+							name="IEConfirm">
+								<testmodule
+								id="843c6d93-b54c-4b19-9c36-4ee478e2502e"
+								name="ConfirmIE">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 						<teardown
 						id="a3bd1857-6da0-42e5-bf72-e2ca4673c7f1"
@@ -699,7 +699,7 @@
 				</tr>
 				<tr>
 					<td>
-						Chrome
+						IE
 					</td>
 				</tr>
 			</table>
@@ -707,7 +707,7 @@
 		<DataSource
 		id="48fb4b3c-3271-46c0-8a96-5f8cc9bcf1c2"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="19"
 		name="DataPage"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">

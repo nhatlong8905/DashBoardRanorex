@@ -27,10 +27,6 @@ mode="Global">
 		id="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
 		name="varItemDataProfile">
 		</var>
-		<var
-		id="ee3d9c15-c201-4965-a3b0-51d29e7879c3"
-		name="varItemDataProfileUpdate">
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -109,24 +105,6 @@ mode="Global">
 			<AttributeValue>
 			</AttributeValue>
 		</setvaluerecorditem>
-		<getvaluerecorditem
-		attrname="Value"
-		enabled="True"
-		optional="False"
-		searchpropertyid="9b7c421f-6bee-4311-8e8f-9c85727cc0eb"
-		varname="varItemDataProfileUpdate">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="835f948e-b4f1-4107-bd05-d5c4f244787f"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='localhost']//input[#'txtProfileName']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

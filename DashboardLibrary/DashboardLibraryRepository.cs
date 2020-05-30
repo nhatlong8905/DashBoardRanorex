@@ -29,9 +29,7 @@ namespace DashboardLibrary
         static DashboardLibraryRepository instance = new DashboardLibraryRepository();
         DashboardLibraryRepositoryFolders.TestArchitectAppFolder _testarchitect;
         DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder _messagefromwebpage;
-        DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder _chrome_popup;
         DashboardLibraryRepositoryFolders.ChromeppAppFolder _chromepp;
-        DashboardLibraryRepositoryFolders.ExplorerAppFolder _explorer;
 
         /// <summary>
         /// Gets the singleton class instance representing the DashboardLibraryRepository element repository.
@@ -50,9 +48,7 @@ namespace DashboardLibrary
         {
             _testarchitect = new DashboardLibraryRepositoryFolders.TestArchitectAppFolder(this);
             _messagefromwebpage = new DashboardLibraryRepositoryFolders.MessageFromWebpageAppFolder(this);
-            _chrome_popup = new DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder(this);
             _chromepp = new DashboardLibraryRepositoryFolders.ChromeppAppFolder(this);
-            _explorer = new DashboardLibraryRepositoryFolders.ExplorerAppFolder(this);
         }
 
 #region Variables
@@ -234,30 +230,12 @@ namespace DashboardLibrary
         }
 
         /// <summary>
-        /// The Chrome_Popup folder.
-        /// </summary>
-        [RepositoryFolder("ef6ddbc2-796d-41cf-947f-6bc758773f04")]
-        public virtual DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder Chrome_Popup
-        {
-            get { return _chrome_popup; }
-        }
-
-        /// <summary>
         /// The chromepp folder.
         /// </summary>
         [RepositoryFolder("7a172279-4e8e-493e-bb85-db8abb3a46e0")]
         public virtual DashboardLibraryRepositoryFolders.ChromeppAppFolder chromepp
         {
             get { return _chromepp; }
-        }
-
-        /// <summary>
-        /// The Explorer folder.
-        /// </summary>
-        [RepositoryFolder("9eccf8cf-7706-44a3-8a5c-76d4cc7a228e")]
-        public virtual DashboardLibraryRepositoryFolders.ExplorerAppFolder Explorer
-        {
-            get { return _explorer; }
         }
     }
 
@@ -2394,46 +2372,6 @@ namespace DashboardLibrary
         }
 
         /// <summary>
-        /// The Chrome_PopupAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("ef6ddbc2-796d-41cf-947f-6bc758773f04")]
-        public partial class Chrome_PopupAppFolder : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new Chrome_Popup  folder.
-            /// </summary>
-            public Chrome_PopupAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Chrome_Popup", "/form[@accessiblename='localhost says']//button[@accessiblename='OK']", parentFolder, 30000, null, false, "ef6ddbc2-796d-41cf-947f-6bc758773f04", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("ef6ddbc2-796d-41cf-947f-6bc758773f04")]
-            public virtual Ranorex.Button Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("ef6ddbc2-796d-41cf-947f-6bc758773f04")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The ChromeppAppFolder folder.
         /// </summary>
         [RepositoryFolder("7a172279-4e8e-493e-bb85-db8abb3a46e0")]
@@ -2495,72 +2433,6 @@ namespace DashboardLibrary
                 get
                 {
                     return _buttonokInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ExplorerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("9eccf8cf-7706-44a3-8a5c-76d4cc7a228e")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _googlechrome1runningwindowInfo;
-
-            /// <summary>
-            /// Creates a new Explorer  folder.
-            /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "9eccf8cf-7706-44a3-8a5c-76d4cc7a228e", "")
-            {
-                _googlechrome1runningwindowInfo = new RepoItemInfo(this, "GoogleChrome1RunningWindow", ".//toolbar[@accessiblename='Running applications']/button[4]", 30000, null, "894029d5-8de8-4a5a-9b81-314bbf499c20");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("9eccf8cf-7706-44a3-8a5c-76d4cc7a228e")]
-            public virtual Ranorex.MenuBar Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("9eccf8cf-7706-44a3-8a5c-76d4cc7a228e")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The GoogleChrome1RunningWindow item.
-            /// </summary>
-            [RepositoryItem("894029d5-8de8-4a5a-9b81-314bbf499c20")]
-            public virtual Ranorex.Button GoogleChrome1RunningWindow
-            {
-                get
-                {
-                    return _googlechrome1runningwindowInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The GoogleChrome1RunningWindow item info.
-            /// </summary>
-            [RepositoryItemInfo("894029d5-8de8-4a5a-9b81-314bbf499c20")]
-            public virtual RepoItemInfo GoogleChrome1RunningWindowInfo
-            {
-                get
-                {
-                    return _googlechrome1runningwindowInfo;
                 }
             }
         }

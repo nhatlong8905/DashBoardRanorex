@@ -10,9 +10,13 @@
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>bcb9eaf9-1fea-41c6-b6e1-1711c30d49b1</string>
+      <string>8c788ff4-d799-40ed-af3e-4440702aa667</string>
+      <string>98b1fd5e-b918-4936-a7c2-c47156764596</string>
       <string>4ed538fd-0b46-45b3-8298-f10996d122a4</string>
+      <string>2f165e9b-0f9f-4e71-afab-ab101901651f</string>
+      <string>6907bcf1-6c52-47dc-954c-af3a15b5224e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution DashboardAutomation[DashboardAutomation[]]]&#xD;&#xA;Solution DashboardAutomation\DashboardLibrary&#xD;&#xA;Solution DashboardAutomation" />
+  <ProjectBrowserState value="[Solution DashboardAutomation[DashboardAutomation[Reports[]]]]&#xD;&#xA;Solution DashboardAutomation\DashboardAutomation\DashboardAutomationDataProfile.rxtst&#xD;&#xA;Solution DashboardAutomation" />
   <StartupProject value="{1FFC5A30-F6E8-49B9-876F-B31FD9B75B3A}" />
 </Properties>

@@ -42,7 +42,6 @@ namespace DashboardLibrary.ActionsDataProfile
         public EditGeneralSetting()
         {
             varItemDataProfile = "";
-            varItemDataProfileUpdate = "";
         }
 
         /// <summary>
@@ -54,18 +53,6 @@ namespace DashboardLibrary.ActionsDataProfile
         }
 
 #region Variables
-
-        string _varItemDataProfileUpdate;
-
-        /// <summary>
-        /// Gets or sets the value of variable varItemDataProfileUpdate.
-        /// </summary>
-        [TestVariable("ee3d9c15-c201-4965-a3b0-51d29e7879c3")]
-        public string varItemDataProfileUpdate
-        {
-            get { return _varItemDataProfileUpdate; }
-            set { _varItemDataProfileUpdate = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable varItemDataProfile.
@@ -114,15 +101,11 @@ namespace DashboardLibrary.ActionsDataProfile
             repo.TestArchitect.ActionsDataProfile.CreateGeneralSettings.TxtProfileName.Element.SetAttributeValue("Value", varItemDataProfile);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Value' from item 'TestArchitect.ActionsDataProfile.CreateGeneralSettings.TxtProfileName' and assigning its value to variable 'varItemDataProfileUpdate'.", repo.TestArchitect.ActionsDataProfile.CreateGeneralSettings.TxtProfileNameInfo, new RecordItemIndex(3));
-            varItemDataProfileUpdate = repo.TestArchitect.ActionsDataProfile.CreateGeneralSettings.TxtProfileName.Element.GetAttributeValueText("Value");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.ButtonProfileSetting' at Center.", repo.TestArchitect.ActionsDataProfile.ButtonProfileSettingInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.ButtonProfileSetting' at Center.", repo.TestArchitect.ActionsDataProfile.ButtonProfileSettingInfo, new RecordItemIndex(3));
             repo.TestArchitect.ActionsDataProfile.ButtonProfileSetting.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.ItemDataProfile' at Center.", repo.TestArchitect.ActionsDataProfile.ItemDataProfileInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TestArchitect.ActionsDataProfile.ItemDataProfile' at Center.", repo.TestArchitect.ActionsDataProfile.ItemDataProfileInfo, new RecordItemIndex(4));
             repo.TestArchitect.ActionsDataProfile.ItemDataProfile.Click();
             Delay.Milliseconds(0);
             

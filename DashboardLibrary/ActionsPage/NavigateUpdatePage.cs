@@ -42,7 +42,6 @@ namespace DashboardLibrary.ActionsPage
         public NavigateUpdatePage()
         {
             varName = "";
-            curName = "";
         }
 
         /// <summary>
@@ -54,18 +53,6 @@ namespace DashboardLibrary.ActionsPage
         }
 
 #region Variables
-
-        string _curName;
-
-        /// <summary>
-        /// Gets or sets the value of variable curName.
-        /// </summary>
-        [TestVariable("b0f42258-9b7d-4ea8-8b1d-17f0b5a08e8c")]
-        public string curName
-        {
-            get { return _curName; }
-            set { _curName = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable varName.

@@ -41,7 +41,6 @@ namespace DashboardLibrary.GlobalSettingRecording
         /// </summary>
         public AddPageGlobalSetting()
         {
-            varName = "";
         }
 
         /// <summary>
@@ -53,16 +52,6 @@ namespace DashboardLibrary.GlobalSettingRecording
         }
 
 #region Variables
-
-        /// <summary>
-        /// Gets or sets the value of variable varName.
-        /// </summary>
-        [TestVariable("b1b90102-b72f-4f41-a881-59557ee6a285")]
-        public string varName
-        {
-            get { return repo.varName; }
-            set { repo.varName = value; }
-        }
 
 #endregion
 

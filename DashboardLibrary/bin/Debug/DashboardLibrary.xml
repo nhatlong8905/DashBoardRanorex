@@ -171,6 +171,11 @@
             Gets or sets the value of variable varItemDataProfile.
             </summary>
         </member>
+        <member name="P:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
         <member name="M:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsDataProfile.DeleteDataProfile.Instance"/>.
@@ -208,11 +213,6 @@
         <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.Instance">
             <summary>
             Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.varItemDataProfileUpdate">
-            <summary>
-            Gets or sets the value of variable varItemDataProfileUpdate.
             </summary>
         </member>
         <member name="P:DashboardLibrary.ActionsDataProfile.EditGeneralSetting.varItemDataProfile">
@@ -479,11 +479,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.curName">
-            <summary>
-            Gets or sets the value of variable curName.
-            </summary>
-        </member>
         <member name="P:DashboardLibrary.ActionsPage.NavigateUpdatePage.varName">
             <summary>
             Gets or sets the value of variable varName.
@@ -724,37 +719,37 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:DashboardLibrary.ActionsPanels.EditNewPanel">
+        <member name="T:DashboardLibrary.ActionsPanels.EditPanel">
              <summary>
-            The EditNewPanel recording.
+            The EditPanel recording.
              </summary>
         </member>
-        <member name="F:DashboardLibrary.ActionsPanels.EditNewPanel.repo">
+        <member name="F:DashboardLibrary.ActionsPanels.EditPanel.repo">
             <summary>
             Holds an instance of the global::DashboardLibrary.DashboardLibraryRepository repository.
             </summary>
         </member>
-        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.#ctor">
+        <member name="M:DashboardLibrary.ActionsPanels.EditPanel.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:DashboardLibrary.ActionsPanels.EditNewPanel.Instance">
+        <member name="P:DashboardLibrary.ActionsPanels.EditPanel.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:DashboardLibrary.ActionsPanels.EditNewPanel.varDisplayName">
+        <member name="P:DashboardLibrary.ActionsPanels.EditPanel.varDisplayName">
             <summary>
             Gets or sets the value of variable varDisplayName.
             </summary>
         </member>
-        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Start">
+        <member name="M:DashboardLibrary.ActionsPanels.EditPanel.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.EditNewPanel.Instance"/>.
+            Starts the replay of the static recording <see cref="P:DashboardLibrary.ActionsPanels.EditPanel.Instance"/>.
             </summary>
         </member>
-        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:DashboardLibrary.ActionsPanels.EditPanel.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -762,7 +757,7 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:DashboardLibrary.ActionsPanels.EditNewPanel.Init">
+        <member name="M:DashboardLibrary.ActionsPanels.EditPanel.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
@@ -1025,19 +1020,9 @@
             The MessageFromWebpage folder.
             </summary>
         </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepository.Chrome_Popup">
-            <summary>
-            The Chrome_Popup folder.
-            </summary>
-        </member>
         <member name="P:DashboardLibrary.DashboardLibraryRepository.chromepp">
             <summary>
             The chromepp folder.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepository.Explorer">
-            <summary>
-            The Explorer folder.
             </summary>
         </member>
         <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders">
@@ -1941,26 +1926,6 @@
             The ButtonOK item info.
             </summary>
         </member>
-        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder">
-            <summary>
-            The Chrome_PopupAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Chrome_Popup  folder.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.Chrome_PopupAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
         <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ChromeppAppFolder">
             <summary>
             The ChromeppAppFolder folder.
@@ -1991,36 +1956,6 @@
             The ButtonOK item info.
             </summary>
         </member>
-        <member name="T:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder">
-            <summary>
-            The ExplorerAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Explorer  folder.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindow">
-            <summary>
-            The GoogleChrome1RunningWindow item.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.DashboardLibraryRepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindowInfo">
-            <summary>
-            The GoogleChrome1RunningWindow item info.
-            </summary>
-        </member>
         <member name="T:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting">
              <summary>
             The AddPageGlobalSetting recording.
@@ -2039,11 +1974,6 @@
         <member name="P:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Instance">
             <summary>
             Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.varName">
-            <summary>
-            Gets or sets the value of variable varName.
             </summary>
         </member>
         <member name="M:DashboardLibrary.GlobalSettingRecording.AddPageGlobalSetting.Start">
@@ -2353,42 +2283,6 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:DashboardLibrary.StartWatchingPopup">
-            <summary>
-            Description of InitPopupWatcher.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.StartWatchingPopup.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.StartWatchingPopup.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this module.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="T:DashboardLibrary.StopWatchingPopup">
-            <summary>
-            Description of StopWatchingPopup.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.StopWatchingPopup.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:DashboardLibrary.StopWatchingPopup.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this module.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
         <member name="T:DashboardLibrary.UserCodeUtilities">
             <summary>
             Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
@@ -2399,11 +2293,6 @@
             This is a placeholder text. Please describe the purpose of the
             user code method here. The method is published to the user code library
             within a user code collection.
-            </summary>
-        </member>
-        <member name="T:DashboardLibrary.WatchAutoComplete">
-            <summary>
-            Description of PopupWatcher.
             </summary>
         </member>
     </members>

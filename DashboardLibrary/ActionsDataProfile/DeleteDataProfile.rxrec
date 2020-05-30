@@ -27,8 +27,41 @@ mode="Global">
 		id="bc8c09dc-2fd8-41ac-ab34-74bc09534c66"
 		name="varItemDataProfile">
 		</var>
+		<var
+		id="5dbaf6f7-ae32-43af-9c0b-f371c9329137"
+		name="varName">
+		</var>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="UserCodeUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="updateName"
+		namespace="DashboardLibrary"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="varItemDataProfile">
+				</binding>
+			</bindings>
+			<arguments
+			id="c453c977-80bf-461c-9fa5-06a91e380e14">
+				<argument
+				argname="name"
+				id="0e95b27a-822a-498e-9cb7-a7e48d49e1ce"
+				variable="varItemDataProfile">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
